@@ -1,3 +1,25 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p {
+  font-size: 18px;
+}
+
+#first_paragraph {
+  color:brown ;
+  font-weight: bold;
+}
+
+#first-heading {
+  color: red;
+  text-align: center;
+}
+
 .green {
   color: darkcyan;
 }
@@ -11,9 +33,7 @@
   margin-bottom: 60px;
 }
 
-#first_paragraph {
-  color:brown ;
-}
+
 
 p {
   color: #444444;
@@ -28,6 +48,4 @@ h1 .green {
   color: cadetblue;
 }
 
-#first-heading {
-  color: red;
-}
+
