@@ -47,6 +47,10 @@ h1 .green {
 }
 
 /* Dark Mode */
+body.dark *{
+  color: rgb(255,255,255);
+}
+
 body.dark {
   background-color: #3A445D;
 }
@@ -59,10 +63,10 @@ body.dark a {
   color: #D4D2A5;
 }
 
-body.dark *{
-  color: rgb(255,255,255);
-}
-
 body.dark p, body.dark ul {
   opacity: 0.8;
+}
+
+body.dark button {
+  color: black;
 }
